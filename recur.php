@@ -1,4 +1,7 @@
 <?php
+/**
+ * This function only applies in small number ranges.Don't use it on big ranges,it shall waste your CPU!.
+*/
 function recur()
 {
 	$x = rand(3,10);
